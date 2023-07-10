@@ -10,7 +10,8 @@ const db = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
-    database: "products"
+    database: "products",
+    port: "3306"
 })
 
 const port = 3000
