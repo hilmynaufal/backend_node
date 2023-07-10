@@ -52,3 +52,5 @@ app.post('/login', (req, res) => {
 app.listen(port, () => {
     console.log(`tai on port = ${port}`);
 })
+
+module.exports = app
